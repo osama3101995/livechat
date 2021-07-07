@@ -44,9 +44,6 @@ io.on('connection', (socket) => {
     })
 })
 
-const routes = require('./routes/api');
-app.use('/api', routes)
-
 
 server.listen(port, () => {
     console.log(`Server is on port ${port}`);
